@@ -103,7 +103,7 @@ const checkRow = () => {
     const guess = guessRows[currentRow].join('')
     if (currentTile >4) {
         flipTile()
-        console.log('guess is ' + guess,'worlde is '+wordle)
+//         console.log('guess is ' + guess,'worlde is '+wordle)
         if(wordle==guess){
             showMessage('Magnificient!')
             isGameOver=true
